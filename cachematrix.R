@@ -16,8 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function checks if the matrix inverse has already been calculated. 
-## If it has been then returns inverse from cache otherwise calulates inverse using Solve
-## Assumption here is that the matrix is square and invertable
+## If it has been then returns inverse from cache otherwise calculates inverse using Solve
+## Assumption here is that the matrix is square and invertible
 
 cacheSolve <- function(x) {
         ## Return a matrix that is the inverse of 'x'
